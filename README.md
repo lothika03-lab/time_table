@@ -28,9 +28,8 @@ Execute the program using runserver command.
 <head>
     <title>Time Table</title>
     <style>
-        table, th, td {
-            background-color: blanchedalmond; 
-            color: rgb(105, 34, 34);
+        table{
+            color: rgb(102, 49, 49);
             border: 3px solid black;
             border-collapse: collapse;
             text-align: center;
@@ -40,10 +39,42 @@ Execute the program using runserver command.
             margin-right: auto;
             font-size: 18px;
         }
+        th{
+            background-color: blanchedalmond;
+            color: rgb(102, 49, 49);
+            border: 3px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        td{
+            background-color: rgb(255, 246, 233);
+            color: rgb(102, 49, 49);
+            border: 3px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
         span {
             writing-mode: vertical-lr;
             text-orientation: upright;
             letter-spacing: 10px;
+        }
+        body{
+            background:linear-gradient(white,white,blanchedalmond, rgb(254, 210, 218))
+        }
+        .pi{
+            background-color: rgb(255, 205, 214);
+            color: rgb(102, 49, 49);
+            border: 3px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        .tp
+        {
+            background-color: rgb(255, 223, 229);
+            color: rgb(102, 49, 49);
+            border: 3px solid black;
+            border-collapse: collapse;
+            padding: 5px;
         }
     </style>
 </head>
@@ -53,10 +84,8 @@ Execute the program using runserver command.
     </center>
     <table>
         <caption><h2>Slot Time Table - Lothika M (25006771)</h2></caption>
-
         <caption>___________________________________________________________________________________________</caption>
-        <tr>
-            <th>Day/time</th>
+            <th class="">Day/time</th>
             <th>8:00-10:00</th>
             <th>10:00-12:00</th>
             <th>12:00-1:00</th>
@@ -104,34 +133,34 @@ Execute the program using runserver command.
     <table>
         <caption>_________________________________________________________________________</caption>
         <tr>
-            <th>Si No</th>
-            <th>subject code</th>
-            <th>subject</th>
-            <th>faculty</th>
+            <th class="pi">Si No</th>
+            <th class="pi">subject code</th>
+            <th class="pi">subject</th>
+            <th class="pi">faculty</th>
         </tr>
         <tr>
-            <th >1</th>
-            <td>19AI304</td>
-            <td>Fundamentals Of C Programming</td>
-            <td>Trainer 1</td>
+            <th class="pi">1</th>
+            <td class="tp">19AI304</td>
+            <td class="tp">Fundamentals Of C Programming</td>
+            <td class="tp">Trainer 1</td>
         </tr>
         <tr>
-            <th>2</th>
-            <td>19AI414</td>
-            <td>Fundamentals Of Web Application Development</td>
-            <td>Berlin Magthalin</td>
+            <th class="pi">2</th>
+            <td class="tp">19AI414</td>
+            <td class="tp">Fundamentals Of Web Application Development</td>
+            <td class="tp">Berlin Magthalin</td>
         </tr>
         <tr>
-            <th>3</th>
-            <td>19EN101</td>
-            <td>Communicative English</td>
-            <td>David Raja</td>
+            <th class="pi">3</th>
+            <td class="tp">19EN101</td>
+            <td class="tp">Communicative English</td>
+            <td class="tp">David Raja</td>
         </tr>
         <tr>
-            <th>4</th>
-            <td>-</td>
-            <td>Mentor Meet</td>
-            <td>Suguna Devi</td>
+            <th class="pi">4</th>
+            <td class="tp">-</td>
+            <td class="tp">Mentor Meet</td>
+            <td class="tp">Suguna Devi</td>
         </tr>
     </table>
 </body>
@@ -139,6 +168,7 @@ Execute the program using runserver command.
 ```
 
 # OUTPUT
-![alt text](<slot time table-1.png>)
+<img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/63a30fb7-bb4b-4865-89fc-3fc4fab5a9b3" />
+
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
